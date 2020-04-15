@@ -8,7 +8,7 @@ pygame.init()
 
 
 # Screen for game
-screen = pygame.display.set_mode((800, 500))
+screen = pygame.display.set_mode((800, 600))
 #title and icon
 
 pygame.display.set_caption("Star War")
@@ -17,7 +17,7 @@ pygame.display.set_icon(icon)
 player_image_path = r"D:\Python\pygame\pygame-git\space-invaders.png"
 player_image = pygame.image.load(player_image_path)
 player_x = 350
-player_y = 400
+player_y = 500
 
 
 def player():
